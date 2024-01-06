@@ -1,0 +1,14 @@
+python3 -m venv env
+
+pip install django
+
+import django
+>>> print(django.get_version())
+5.0
+
+activate the env 
+
+django-admin startproject lanserver
+python manage.py startapp users
+python manage.py runserver
+pip install django-multiupload

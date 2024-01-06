@@ -1,0 +1,37 @@
+STEPS to set up a local email server using maildev:
+
+Install Node.js
+
+Install Maildev:
+npm install -g maildev
+
+Run Maildev:
+maildev
+
+This will start the mail server, and you can access the web interface at http://localhost:1080 to view the emails sent by your Django application.
+
+
+
+SUCCESSFUL OUTPUTS WILL LOOK LIKE THIS
+
+D:\lansmtp>npm install -g maildev
+npm WARN deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated domexception@4.0.0: Use your platform's native DOMException instead
+
+added 175 packages in 26s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+D:\lansmtp>maildev
+MailDev using directory C:\Users\hp\AppData\Local\Temp\maildev-13752
+MailDev webapp running at http://0.0.0.0:1080/
+(node:13752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+MailDev SMTP Server running at 0.0.0.0:1025
+
+
+
+
+

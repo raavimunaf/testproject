@@ -1,0 +1,65 @@
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /erp/send-email/
+Traceback (most recent call last):
+  File "D:\lanserver\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lanserver\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lanserver\lanserver\erp\views.py", line 13, in send_email
+    logger.info("View executed successfully")
+    ^^^^^^
+NameError: name 'logger' is not defined
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+View executed successfully
+View executed successfully
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+<WSGIRequest: POST '/erp/send-email/'>
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+[]
+D:\lanserver\lanserver\erp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+[]
+[]
+[<InMemoryUploadedFile: create 3d cube only html css.png (image/png)>]
+create 3d cube only html css.png
+[<InMemoryUploadedFile: create 3d cube only html css.png (image/png)>]
+create 3d cube only html css.png
+[<TemporaryUploadedFile: 3d website-f000010.png (image/png)>, <TemporaryUploadedFile: 3d website-f000328.png (image/png)>, <TemporaryUploadedFile: animatecss-f000000.png (image/png)>, <TemporaryUploadedFile: paneer tikka.png (image/png)>, <TemporaryUploadedFile: Raavi Bhatkar CV.pdf (application/pdf)>]
+3d website-f000010.png
+3d website-f000328.png
+animatecss-f000000.png
+paneer tikka.png
+Raavi Bhatkar CV.pdf
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+3d website-f000010.png
+3d website-f000328.png
+animatecss-f000000.png
+paneer tikka.png
+Raavi Bhatkar CV.pdf
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\lanserver\lanserver\erp\views.py changed, reloading.
+Watching for file changes with StatReloader
